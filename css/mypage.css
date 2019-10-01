@@ -1,0 +1,48 @@
+/*避免分辨率缩放过小，导致图片混乱，这里设置最小宽度和高度*/
+html, body, .section{
+	min-width: 1000px;
+	min-height: 600px;
+}
+
+
+/* 第1屏幕制作 start */
+.section1 {
+	background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.my_info{
+	position: absolute;
+	bottom: 280px;
+	left: 50%;
+	font-size: 30px;
+	font-style: italic;
+	transform: translateX(-50%);
+}
+
+/* 第1屏幕制作 end */
+/* 第2屏幕制作 start */
+.section2 {
+	background: #ef674d;
+	z-index: 1;
+}
+
+/* 第2屏幕制作 end */
+/* 第3屏幕制作 start */
+.section3 {
+	background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+}
+
+/* 第3屏幕制作 end */
+
+/* 第4屏幕制作 start */
+.section4 {
+	background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+
+/* 第4屏幕制作 end */
+
+/* 第5屏幕制作 start */
+.section5 {
+	background: url(../images/ksgw.png);
+}
+
+/* 第5屏幕制作 end */
